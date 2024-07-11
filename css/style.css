@@ -1,0 +1,562 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 2px 6px grey;
+}
+
+.menu ul{
+    list-style-type: none;
+    display: flex;
+}
+.menu a{
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    color:black
+}
+.menu-bar{
+    display: none;
+}
+.menu a:hover{
+    background-color: rgb(244, 246, 248);
+}
+.logo{
+    width: 120px;
+    height: 90px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../image/logo.png");
+}
+.phone{
+    border:2px solid #FFA500;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+.phone .fa-phone{
+    color:#FFA500
+}
+#home{
+    width: 100%;
+    height: 700px;
+    margin:auto;
+    position: relative;
+}
+.home-info{
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    color:white;
+    width: 80%;
+    left:10%
+}
+.home-color{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 700px;
+    color:white;
+    text-align: center;
+    padding: 100px;
+
+}
+.home-item{
+   
+    background-position: center 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-item1{
+    background-image: url("../image/home.jpg");
+
+}
+.home-item2{
+    background-image: url("../image/ai-generated-ai-generative-outdoor-nature-landsacpe-forest-tree-road-highway-path-landscape-background-graphic-art-photo.jpg");
+}
+.home-item3{
+    background-image: url("../image/landscape-with-country-road-empty.jpg");
+}
+.home-item4{
+    background-image: url("../image/bg-road.jpg");
+}
+.home-info h1{
+    font-size: 72px;
+    margin:50px;
+}
+.home-info p{
+    font-size: 32px;
+    margin:50px auto;
+    width: 70%;
+    line-height: 1.4;
+   
+}
+
+#home .slick-next{
+    right: 100px;
+}
+#home .slick-prev{
+    left:100px;
+    z-index: 3;
+}
+#about{
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-img{
+    width: 45%;
+    height: 550px;
+    background-image: url("../image/traktor.jpg");
+    background-size: cover;
+    background-position: left center;
+    margin:20px;
+    border-radius: 12px;
+    box-shadow: 2px 4px 6px rgb(176, 176, 176);
+}
+.about-info{
+    width: 45%;
+    height: auto;
+    margin:20px;
+    text-align: center;
+}
+.about-info h1,
+#materials h1,
+#work h1{
+    font-size: 32px;
+    margin:20px;
+    color:rgb(36, 34, 34)
+ 
+}
+.about-info p{
+    text-align: justify;
+
+}
+.line{
+    width: 200px;
+    height: 5px;
+    background-color: #FFA500;
+    margin:30px auto;
+    box-shadow: 2px 4px 6px rgb(176, 176, 176);
+    border-radius: 3px;
+}
+#materials{
+    padding:100px;
+    text-align: center;
+}
+#materials p,
+#work p{
+    width: 60%;
+    margin: 50px auto;
+    line-height: 1.6;
+}
+.materials-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
+
+}
+
+.road{
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+    text-align: center;
+}
+.road-info{
+    padding: 20px;
+}
+.road-photo{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    border: 3px solid #FFA500;
+    border-radius: 12px;
+    box-shadow: 2px 3px 5px grey;
+    transition: all 0.7s;
+}
+.road-photo:hover{
+    transform: scale(1.1,1.1);
+}
+.road-photo1{
+    background-image: url("../image/xich.jpg");
+}
+.road-photo2{
+    background-image: url("../image/xich2.jpg");
+}
+.road-photo3{
+    background-image: url("../image/xich3.jpg");
+}
+.road-photo4{
+    background-image: url("../image/xich4.jpg");
+}
+.road-photo5{
+    background-image: url("../image/xich5.jpg");
+}
+.road-photo6{
+    background-image: url("../image/xich6.jpg");
+}
+.road-photo7{
+    background-image: url("../image/xich7.jpg");
+}
+.road-photo8{
+    background-image: url("../image/xich8.jpg");
+}
+.road-photo9{
+    background-image: url("../image/xich9.jpg");
+}
+.road-photo10{
+    background-image: url("../image/xich10.jpg");
+}
+.road-photo11{
+    background-image: url("../image/xich11.jpg");
+}
+.road-photo12{
+    background-image: url("../image/xich12.jpg");
+}
+#work{
+    width: 100%;
+    margin:auto;
+    padding: 100px;
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+}
+
+
+.slider-for,
+.slider-nav,
+.home-info-slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider-for{
+    width: 50%;
+    height: 500px;
+    margin:auto
+}
+.slide{
+    width:150px;
+    height:230px;
+    box-shadow: 2px 4px 6px grey;
+    margin:20px;
+    display: flex;
+    align-items: flex-end;
+    transition: all 0.5s;
+    border-radius: 8px;
+}
+.work{
+    width: 100%;
+    height: 180px;
+    background-size: cover;
+    background-position: top center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.work1{
+    background-image: url("../image/work7.jpg");
+    background-position: 10% 10%;
+}
+.work2{
+    background-image: url("../image/work16.jpg");
+}
+.work3{
+    background-image: url("../image/work15.jpg");
+    background-position: 10% 20%;
+}
+.work4{
+    background-image: url("../image/work11.jpg");
+    background-position: 10% 30%;
+}
+.work5{
+    background-image: url("../image/work10.jpg");
+    background-position: 30% 30%;
+
+}
+.work6{
+    background-image: url("../image/work4.jpg");
+    background-position: 30% 30%;
+}
+.work7{
+    background-image: url("../image/work6.jpg");
+    background-position: 30% 30%;
+}
+.slider-for .slide{
+    height:500px
+}
+.slider-for .work{
+    height: 450px;
+}
+
+.slick-next:before, .slick-prev:before{
+    color:rgb(184, 182, 182);
+    font-size: 26px;
+}
+#work .slick-prev{
+    left:-31px
+
+}
+#location{
+    width: 100%;
+    height: 510px;
+    position: relative;
+    border:3px solid #FFA500
+}
+.address-location{
+ 
+    padding: 30px;
+    border:3px solid #FFA500;
+    box-shadow: 2px 4px 6px grey;
+    border-radius: 16px;
+    position: absolute;
+    right: 100px;
+    bottom: -150px;
+    z-index: 3;
+    background-color: white;
+
+}
+#location ol{
+    list-style-type: none;
+}
+#location ol>li{
+    padding: 10px;
+}
+#location .fa-solid{
+    color:#FFA500;
+    font-size: 20px;
+    margin:10px
+}
+iframe{
+    width: 100%;
+    height: 500px;
+}
+footer{
+    display: flex;
+    padding: 100px;
+    background-color: #FFA500;
+    color:white
+}
+footer ol,
+footer ul{
+    list-style: none;
+
+}
+footer ol>li,
+footer ul>li{
+    padding: 8px;
+}
+footer>*{
+    padding:0px 50px;
+}
+footer a{
+    color:white;
+    text-decoration: none;
+}
+footer h2{
+    margin:20px
+}
+footer .logo{
+    background-color: white;
+    width: 200px;
+    height: 170px;
+    margin:20px;
+}
+@media only screen and (max-width:1024px) {
+    nav{
+        height: 80px;
+        position: relative;
+     }
+    .menu{
+        left:-200%;
+        position: absolute;
+        top:80px;
+        background-color: white;
+        transition: all 0.8s;
+
+       }
+       .menu ul{
+        flex-direction: column;
+       }
+    .menu-bar{
+        display: block;
+        background-color: transparent;
+        border:none;
+        color:#FFA500;
+        font-size: 32px;
+     }
+    .fa-xmark{
+        display: none;
+    }
+    
+    .show{
+        left:0;
+    }
+    .show-xmark{
+        display: block;
+    }
+    .hidden{
+        display: none;
+    }
+    #home{
+        height: 600px;
+    }
+    .home-color{
+        padding: 50px;
+        height: 600px;
+    }
+    .home-info{
+        top:150px
+    }
+    .home-info>h1{
+        font-size: 52px;
+    }
+    .home-info p{
+        font-size: 26px;
+    }
+  
+    #about{
+        flex-direction: column;
+        padding: 50px;
+    }
+    .about-img,
+    .about-info{
+        width: 100%;
+    }
+    .about-info{
+        order:1
+    }
+    .about-img{
+        order:2
+    }
+    #materials,
+    #work  {
+        padding: 50px;
+    }
+    #materials p,
+    #work p{
+        width: 90%;
+
+    }
+    .slider-for{
+        width: 100%;
+     
+    }
+    .slide{
+        height: 250px;
+    }
+    .address-location{
+        padding: 10px;
+        
+    }
+    footer{
+        padding: 50px;
+    }
+}
+@media only screen and (max-width:600px) {
+    .menu{
+        width: 100%;
+        z-index: 10;
+    }
+    .phone{
+        padding: 4px 8px;
+    }
+    #home{
+        height: 350px;
+    }
+    .home-color{
+        padding: 10px;
+        height: 350px;
+    }
+    .home-info{
+        top:100px
+    }
+    .home-info>h1{
+        font-size: 30px;
+        margin:20px
+    }
+    .home-info p{
+        font-size: 16px;
+    }
+    #home .slick-prev{
+        left:8px;
+    }
+    #home .slick-next{
+        right: 8px;
+    }
+    .slick-prev{
+        left:0px
+    
+    }
+    .slick-next{
+        right:0px
+    }
+    .slick-next:before,
+    .slick-prev:before{
+        font-size: 20px;
+    }
+    #about,
+    #materials,
+    #work{
+        padding: 20px;
+    }
+    .about-info h1,
+     #materials h1, 
+     #work h1{
+        font-size: 22px;
+    }
+    .about-img{
+        height: 400px;
+    }
+    .line{
+        margin:10px auto;
+    }
+    #materials p,
+    #work p{
+        margin:10px auto;
+        width: 100%;
+
+    }
+    .slider-for .work{
+        height: 350px;
+
+    }
+    .slider-for .slide{
+        height: auto;
+    }
+    footer{
+        padding: 10px;
+    }
+    iframe{
+        height: 300px;
+    }
+    #location{
+        position: static;
+        height: auto;
+    }
+    .address-location{
+        position: static;
+    }
+    .contacts{
+        display: none;
+    }
+    footer .logo{
+        width: 100px;
+        height: 80px;
+    }
+    footer>*{
+        padding: 0;
+    }
+  
+}
