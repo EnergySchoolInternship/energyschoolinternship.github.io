@@ -116,9 +116,9 @@ nav{
 .about-img{
     width: 45%;
     height: 550px;
-    background-image: url("../image/traktor.jpg");
+    background-image: url("../image/sevan.jpg");
     background-size: cover;
-    background-position: left center;
+    background-position: 20% 10%;
     margin:20px;
     border-radius: 12px;
     box-shadow: 2px 4px 6px rgb(176, 176, 176);
