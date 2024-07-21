@@ -497,6 +497,13 @@ footer .logo{
     .about-img{
         order:2
     }
+    .sand-mine-header>p{
+        width: 80%;
+    }
+    .sand-mine-info{
+        padding: 20px;
+        font-size: 22px;
+    }
     #materials,
     #work  {
         padding: 50px;
@@ -578,6 +585,50 @@ footer .logo{
     }
     .line{
         margin:10px auto;
+    }
+    .sand-mine-container>*{
+        width: 100%;
+    }
+    .sand-mine-info{
+        height: 250px;
+        font-size: 20px;
+    }
+   
+    .sand-mine-img1{
+        order:1
+    }
+    .sand-mine-info1{
+        order:2
+    }
+    .sand-mine-info2{
+        order:4
+    }
+    .sand-mine-img2{
+        order:3
+    }
+    .sand-mine-info3{
+        order:6
+    }
+    .sand-mine-img3{
+        order:5
+    }
+    .sand-mine-info4{
+        order:8
+    }
+    .sand-mine-img4{
+        order:7
+    }
+    .sand-mine-info5{
+        order:10
+    }
+    .sand-mine-img5{
+        order: 9;
+    }
+    .sand-mine-info6{
+        order:12
+    }
+    .sand-mine-img6{
+        order:11
     }
     #materials p,
     #work p{
