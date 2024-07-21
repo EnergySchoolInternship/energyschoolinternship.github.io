@@ -76,6 +76,7 @@ nav{
 }
 .home-item1{
     background-image: url("../image/home.jpg");
+    background-position: center center;
 
 }
 .home-item2{
