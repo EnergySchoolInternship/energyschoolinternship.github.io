@@ -131,7 +131,8 @@ nav{
 }
 .about-info h1,
 #materials h1,
-#work h1{
+#work h1,
+#sand-mine h1{
     font-size: 32px;
     margin:20px;
     color:rgb(36, 34, 34)
@@ -149,6 +150,62 @@ nav{
     box-shadow: 2px 4px 6px rgb(176, 176, 176);
     border-radius: 3px;
 }
+#sand-mine{
+    text-align: center;  
+}
+.sand-mine-header>p{
+    width: 50%;
+    margin:50px auto;
+    line-height: 1.6;
+}
+.sand-mine-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sand-mine-container>*{
+    width: 50%;
+    height:450px;
+
+}
+.sand-mine-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    font-size: 26px;
+    font-weight: 400;
+}
+.sand-mine-img{
+    background-size: cover;
+    background-position: center center;
+}
+.sand-mine-img1{
+    background-image: url("../image/hanq1.jpg");
+}
+
+.sand-mine-img2{
+    background-image: url("../image/hanq2.jpg");
+}
+
+.sand-mine-img3{
+    background-image: url("../image/hanq.jpg");
+}
+
+.sand-mine-img4{
+    background-image: url("../image/hanq4.jpg");
+    background-position: left 60%;
+}
+
+.sand-mine-img5{
+    background-image: url("../image/hanq5.jpg");
+}
+
+.sand-mine-img6{
+    background-image: url("../image/hanq6.jpg");
+}
+
 #materials{
     padding:100px;
     text-align: center;
